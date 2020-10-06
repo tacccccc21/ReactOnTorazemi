@@ -9,12 +9,9 @@ class Blog extends React.Component{
     const authorName = "ハルヒ";
     return(
       <>
-        <Article 
-            title={"デュエリスト"} 
-            order={3}
-            isPublished={true}
-            author={authorName}
-        />
+        <Article title={"デュエリスト"} order={1}/>
+        <Article title={"テケナー"} order={2}/>
+        <Article title={"ベーシスト"} order={3}/>
       </>
 
     )
