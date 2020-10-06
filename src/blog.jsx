@@ -1,5 +1,5 @@
 import React from 'react';
-import Article from "./Aeticle";
+import Article from "./Article";
 
 class Blog extends React.Component{
   constructor(props){
