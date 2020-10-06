@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Article from "./Aeticle";
 
 class Blog extends React.Component{
   constructor(props){
     super(props);
   }
   render(){
-    return{
+    return(
       <div>
         <Article />
       </div>
-    }
+    )
   }
 }
 
