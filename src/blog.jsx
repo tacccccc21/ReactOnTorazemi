@@ -6,10 +6,15 @@ class Blog extends React.Component{
     super(props);
   }
   render(){
+    const authorName = "ハルヒ";
     return(
       <>
-        <Article />
-        <Article />
+        <Article 
+            title={"デュエリスト"} 
+            order={3}
+            isPublished={true}
+            author={authorName}
+        />
       </>
 
     )
