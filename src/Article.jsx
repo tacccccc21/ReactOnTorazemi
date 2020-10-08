@@ -4,7 +4,9 @@ const Article = (props) => {
   return (
     <div>
       <h2>{props.title}</h2>
-  <p>順番は{props.order}です。</p>
+      <label hrmlFor>公開状況：
+      </label>
+  <input type="checkbox" checked={props.isPublished} id="checkbox"/>
     </div>
   )
 };
