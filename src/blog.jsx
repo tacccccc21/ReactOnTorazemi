@@ -11,9 +11,9 @@ class Blog extends React.Component{
 
   //公開情報を反転させる関数
   togglePublished = () => {
-      this.setSstate(this.state:{
-        isPublished: this.state.isPublished
-      })
+      this.setSstate={
+        
+      }
   };
 
 
@@ -21,7 +21,7 @@ class Blog extends React.Component{
     const authorName = "ハルヒ";
     return(
       <>
-        <Article title={"デュエリスト"} isPublished={this.state.isPublished} toggle ={() => this.togglePublished()}/>
+        <Article title={"デュエリスト"} />
         
       </>
 

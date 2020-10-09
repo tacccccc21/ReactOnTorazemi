@@ -5,7 +5,7 @@ const Article = (props) => {
     <div>
       <h2>{props.title}</h2>
       <label hrmlFor>公開状況</label>
-      <input type="checkbox" checked={props.isPublished} id="check" onClick={() = props.toggle()}/>
+      <input type="checkbox" />
     </div>
   )
 };
