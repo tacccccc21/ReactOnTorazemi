@@ -6,17 +6,18 @@ class Blog extends React.Component{
     super(props);
     this.state = {
       isPublished: false
+      
     }
   }
 
   //公開情報を反転させる関数
   togglePublished = () => {
-      this.setSstate=(state:{
-        isPublished: !this.state.isPublished
+      this.setSstate=({
+        // isPublished: this.state.isPublished
       })
   };
 
-
+ 
   render(){
     const authorName = "ハルヒ";
     return(
