@@ -8,11 +8,20 @@ class Blog extends React.Component{
       isPublished: false
     }
   }
+
+  //公開情報を反転させる関数
+  togglePublished = () => {
+      this.setSstate(this.state:{
+        isPublished: this.state.isPublished
+      })
+  };
+
+
   render(){
     const authorName = "ハルヒ";
     return(
       <>
-        <Article title={"デュエリスト"} isPublished={this.state.isPublished} />
+        <Article title={"デュエリスト"} isPublished={this.state.isPublished} toggle ={() => this.togglePublished()}/>
         
       </>
 

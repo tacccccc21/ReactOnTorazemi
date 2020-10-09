@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React aaaon torazemi
+          Learn React on torazemi
         </a>
       </header>
     </div>
