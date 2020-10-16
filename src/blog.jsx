@@ -24,7 +24,7 @@ class Blog extends React.Component{
     const authorName = "ハルヒ";
     return(
       <>
-        <Article title={"デュエリスト"} isPublished={this.state.isPublished} toggle={() => this.togglePublished()}/>
+        <Article title={"デュエっっfリスト"} isPublished={this.state.isPublished} toggle={() => this.togglePublished()}/>
         <FooBar.Foo />
         <ForBar.Bar />
         <Hoge />
